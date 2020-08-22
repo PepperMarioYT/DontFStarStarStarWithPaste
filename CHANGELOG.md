@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 No changes
 
+## [2.7] - 2020-02-01
+### Changed
+- Use runtime.openOptionsPage to open options page
+- Access extension APIs through browser or chrome
+
 ## [2.6] - 2019-04-30
 ### Changed
 - Link to options page from popup
@@ -48,7 +53,8 @@ No changes
 - This CHANGELOG file
 - Copy event blocking prevention
 
-[Unreleased]: https://github.com/jswanner/DontFuckWithPaste/compare/v2.6...HEAD
+[Unreleased]: https://github.com/jswanner/DontFuckWithPaste/compare/v2.7...HEAD
+[2.7]: https://github.com/jswanner/DontFuckWithPaste/compare/v2.6...v2.7
 [2.6]: https://github.com/jswanner/DontFuckWithPaste/compare/v2.5...v2.6
 [2.5]: https://github.com/jswanner/DontFuckWithPaste/compare/v2.4...v2.5
 [2.4]: https://github.com/jswanner/DontFuckWithPaste/compare/v2.3...v2.4
