@@ -13,7 +13,7 @@
     }
 
     get pattern() {
-      return new RegExp(this.value);
+      return new RegExp(this.value || '(?=a)b');
     }
 
     test(string) {
@@ -42,7 +42,7 @@
     }
 
     serialize() {
-      return this.array.map((r) => r.value);
+      return this.array.map(r => r.value).filter(v => v.length);
     }
 
     some(cb) {

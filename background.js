@@ -37,10 +37,6 @@
           DFWP.storage.set({ rules: rules.serialize() });
         });
       });
-
-      chrome.tabs.create({
-        url: "https://github.com/aaronraimist/DontFuckWithPaste/wiki/About-Version-2-of-Don't-Fuck-With-Paste"
-      });
     }
   });
 

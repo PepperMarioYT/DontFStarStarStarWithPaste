@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 No changes
 
+## [2.4] - 2018-05-17
+### Changed
+- Prevent saving of empty rules
+- Prevent empty rules from matching all sites
+- Remove upgrade notification
+- Prevent blocking of cut events
+- Escape periods in auto-generated patterns
+
 ## [2.3] - 2018-03-14
 ### Changed
 - Fix multi-window support
@@ -31,7 +39,8 @@ No changes
 - This CHANGELOG file
 - Copy event blocking prevention
 
-[Unreleased]: https://github.com/jswanner/DontFuckWithPaste/compare/v2.3...HEAD
+[Unreleased]: https://github.com/jswanner/DontFuckWithPaste/compare/v2.4...HEAD
+[2.4]: https://github.com/jswanner/DontFuckWithPaste/compare/v2.3...v2.4
 [2.3]: https://github.com/jswanner/DontFuckWithPaste/compare/v2.2...v2.3
 [2.2]: https://github.com/jswanner/DontFuckWithPaste/compare/v2.1...v2.2
 [2.1]: https://github.com/jswanner/DontFuckWithPaste/compare/v2.0...v2.1
