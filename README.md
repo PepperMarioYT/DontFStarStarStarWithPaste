@@ -13,3 +13,7 @@ paste into a text box.
 
 This is a dead simple Google Chrome extension that removes copy and paste
 blocking.
+
+# How to install
+## Chrome
+## Firefox
