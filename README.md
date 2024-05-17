@@ -16,5 +16,6 @@ blocking.
 
 # How to install
 ## Chrome
+TBA
 ## Firefox
 TBA
