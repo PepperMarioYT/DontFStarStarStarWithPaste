@@ -17,7 +17,8 @@ blocking.
 # How to install
 ## Chrome
 ### Step 1
-Unzip the file
+#### Unzip the file
+![Screenshot 2024-05-16 205132](https://github.com/PepperMarioYT/DontFStarStarStarWithPaste/assets/142949229/21b6c119-7b67-4547-9b23-e113ee477207)
 ![image](https://github.com/PepperMarioYT/DontFStarStarStarWithPaste/assets/142949229/394f4bf4-87b7-4c0d-8b20-689699f8a08c)
 ### Step 2
 Click the Puzzle Piece
