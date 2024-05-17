@@ -15,7 +15,7 @@ This is a dead simple Google Chrome extension that removes copy and paste
 blocking.
 
 # How to install
-## Chrome
+## Universal
 ### Step 1
 #### Unzip the file
 ![Screenshot 2024-05-16 205132](https://github.com/PepperMarioYT/DontFStarStarStarWithPaste/assets/142949229/21b6c119-7b67-4547-9b23-e113ee477207)
@@ -26,6 +26,7 @@ blocking.
 ### Step 3
 #### select Manage Extensions
 ![Screenshot 2024-05-16 210629](https://github.com/PepperMarioYT/DontFStarStarStarWithPaste/assets/142949229/c54022fb-d823-4d9e-b3b4-1d5f1e1fe3d3)
+## Chrome
 ### Step 4
 #### enable developer mode
 ![Screenshot 2024-05-16 210638](https://github.com/PepperMarioYT/DontFStarStarStarWithPaste/assets/142949229/77906c06-1b35-4e42-a866-768ed29f7278)
