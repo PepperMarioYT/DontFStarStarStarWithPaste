@@ -16,6 +16,17 @@ blocking.
 
 # How to install
 ## Chrome
-TBA
+### Step 1
+Unzip the file
+### Step 2
+Click the Puzzle Piece
+### Step 3
+select Manage Extensions
+### Step 4
+enable developer mode
+### Step 5
+Select "Load Unpacked"
+### Step 6
+Select the unzipped folder
 ## Firefox
 TBA
