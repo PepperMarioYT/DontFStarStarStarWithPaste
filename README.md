@@ -18,6 +18,7 @@ blocking.
 ## Chrome
 ### Step 1
 Unzip the file
+![image](https://github.com/PepperMarioYT/DontFStarStarStarWithPaste/assets/142949229/394f4bf4-87b7-4c0d-8b20-689699f8a08c)
 ### Step 2
 Click the Puzzle Piece
 ### Step 3
