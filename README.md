@@ -16,17 +16,17 @@ blocking.
 
 # How to install
 ## Universal
+### Step 2 on chrome 1 on firefox
+#### Click the Puzzle Piece
+![Screenshot 2024-05-16 210612](https://github.com/PepperMarioYT/DontFStarStarStarWithPaste/assets/142949229/78dea64c-f4a9-4ae6-81e9-27ad3e30d60d)
+### Step 3 on chrome 2 on firefox
+#### select Manage Extensions
+![Screenshot 2024-05-16 210629](https://github.com/PepperMarioYT/DontFStarStarStarWithPaste/assets/142949229/c54022fb-d823-4d9e-b3b4-1d5f1e1fe3d3)
+## Chrome
 ### Step 1
 #### Unzip the file
 ![Screenshot 2024-05-16 205132](https://github.com/PepperMarioYT/DontFStarStarStarWithPaste/assets/142949229/21b6c119-7b67-4547-9b23-e113ee477207)
 ![image](https://github.com/PepperMarioYT/DontFStarStarStarWithPaste/assets/142949229/394f4bf4-87b7-4c0d-8b20-689699f8a08c)
-### Step 2
-#### Click the Puzzle Piece
-![Screenshot 2024-05-16 210612](https://github.com/PepperMarioYT/DontFStarStarStarWithPaste/assets/142949229/78dea64c-f4a9-4ae6-81e9-27ad3e30d60d)
-### Step 3
-#### select Manage Extensions
-![Screenshot 2024-05-16 210629](https://github.com/PepperMarioYT/DontFStarStarStarWithPaste/assets/142949229/c54022fb-d823-4d9e-b3b4-1d5f1e1fe3d3)
-## Chrome
 ### Step 4
 #### enable developer mode
 ![Screenshot 2024-05-16 210638](https://github.com/PepperMarioYT/DontFStarStarStarWithPaste/assets/142949229/77906c06-1b35-4e42-a866-768ed29f7278)
