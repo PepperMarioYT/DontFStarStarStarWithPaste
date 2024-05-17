@@ -1,0 +1,50 @@
+name: Create Release on PR Merge
+
+on:
+  pull_request:
+    types: [closed]
+
+jobs:
+  create-release:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Get PR title and branch
+        id: pr_details
+        run: |
+          echo "PR_TITLE=$(jq -r .pull_request.title $GITHUB_EVENT_PATH)" >> $GITHUB_ENV
+          echo "PR_BRANCH=$(jq -r .pull_request.head.ref $GITHUB_EVENT_PATH)" >> $GITHUB_ENV
+
+      - name: Read README.md
+        id: readme
+        run: |
+          DESCRIPTION=$(cat README.md)
+          echo "README_CONTENT<<EOF" >> $GITHUB_ENV
+          echo "$DESCRIPTION" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+
+      - name: Create GitHub release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.event.pull_request.head.ref }}
+          release_name: ${{ env.PR_TITLE }}
+          body: ${{ env.README_CONTENT }}
+          draft: false
+          prerelease: false
+
+      # Uncomment the following steps if you want to upload assets to the release
+      # - name: Upload Release Asset
+      #   uses: actions/upload-release-asset@v1
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #   with:
+      #     upload_url: ${{ steps.create_release.outputs.upload_url }}
+      #     asset_path: path/to/your/asset.zip
+      #     asset_name: asset.zip
+      #     asset_content_type: application/zip
