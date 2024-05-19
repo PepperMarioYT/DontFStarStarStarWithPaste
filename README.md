@@ -14,7 +14,7 @@ paste into a text box.
 This is a dead simple Google Chrome extension that removes copy and paste
 blocking.
 
-# How to install
+# How to install (Option 1)
 ## Universal
 ### Step 2 on chrome 1 on firefox
 #### Click the Puzzle Piece
@@ -37,4 +37,9 @@ blocking.
 ### Step 6
 #### Select the unzipped folder
 ## Firefox
-TBA
+#### Option 1 is only for chromium based Browsers
+# How to install (Option 2)
+## Chrome
+### Download the ChromeExtension.zip and extract it
+## Firefox
+### Download the FirefoxAddon.xpi and double click it
